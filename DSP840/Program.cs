@@ -12,7 +12,7 @@ namespace DSP840
             dsp840.Open();
             dsp840.SetRussia();
             dsp840.ClearScreen();
-            dsp840.Write("Иванов Иван Иванович/n234 р. 00 коп.");
+            dsp840.Write("Иванов Иван Иванович\n234 р. 00 коп.");
             dsp840.Close();
 
             Console.Beep();
