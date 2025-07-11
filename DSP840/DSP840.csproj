@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+	  <Description>Проба пера для работы с табло покупателя Gigatek DSP840.</Description>
+	  <Authors>xylocode</Authors>
+	  <Copyright>Copyright (c) 2025 Sergey Korobeynikov</Copyright>
+	  <RepositoryUrl>https://github.com/sergeykorobeynikov/DSP840/</RepositoryUrl>
+	  <PackageProjectUrl>https://xylocode.com/</PackageProjectUrl>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <PackageTags>DSP840</PackageTags>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.IO.Ports" Version="9.0.7" />
+  </ItemGroup>
+
+</Project>
